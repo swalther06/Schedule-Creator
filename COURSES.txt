@@ -1,0 +1,5 @@
+TITLE                                                       DEPT            NUM     WORKLOAD
+Introduction to Signals and Systems                         EECS            216     46
+Digital Integrated Circuits                                 EECS            312     24
+Computer Architecture                                       EECS            470     81
+Intermediate Mechanics                                      PHYSICS         401     27      
