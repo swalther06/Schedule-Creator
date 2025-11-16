@@ -8,7 +8,7 @@ const uint16_t MAX_CREDITS = 18;
 
 class Semester {
 private:
-    std::vector<Course&> courses;
+    std::vector<Course*> courses;
     uint16_t min_credit_threshold;
     uint16_t max_credit_threshold;
 
@@ -20,11 +20,13 @@ public:
 
     uint8_t average_workload();
 
-    void add_course(Course& c);
+    void add_course(std::string& tit);
 
-    void del_course(std::string t);
+    void add_course(std::string& dept, uint8_t num);
 
-    void del_course(std::string d, uint8_t n);
+    void del_course(std::string& t);
+
+    void del_course(std::string& d, uint8_t n);
 };
 
 #endif
